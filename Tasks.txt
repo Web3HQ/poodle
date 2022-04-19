@@ -5,3 +5,10 @@
 - make site keywords also searchable as title and body are
 
 - separate index into external repo
+
+----------------------------------------
+
+- Web3 and Google tabs
+
+- Merged search (!). Bring together with Mail and Ogt fusion
+- When getting results from Web3/Google/Bing, de-duplicate and re-arrange mixed items to bring the best catchy results
