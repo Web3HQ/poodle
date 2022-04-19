@@ -20,6 +20,7 @@ stdin.on('end', function () {
     this.field('name')
     this.field('body')
     this.field('keywords')
+    this.field('link')
 
     // This is required to provide the position of terms in
     // in the index. Currently position data is opt-in due

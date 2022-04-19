@@ -1,4 +1,4 @@
-- new field: site URL
+- fix site URL bug when searching
 
 - new field: site icon
 
@@ -12,3 +12,4 @@
 
 - Merged search (!). Bring together with Mail and Ogt fusion
 - When getting results from Web3/Google/Bing, de-duplicate and re-arrange mixed items to bring the best catchy results
+- Even with the frontend/backend main version, still make a version available at IPFS sharing the same base

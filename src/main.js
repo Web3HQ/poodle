@@ -26,9 +26,13 @@ var buildSearchResult = function (doc) {
       article = document.createElement('article'),
       header = document.createElement('header'),
       section = document.createElement('section'),
+      a = document.createElement('a'),
       h2 = document.createElement('h2'),
       p = document.createElement('p'),
       span = document.createElement('span')
+      
+  a.dataset.field = 'link'
+  a.textContent = doc.link
 
   h2.dataset.field = 'name'
   h2.textContent = doc.name
@@ -41,8 +45,9 @@ var buildSearchResult = function (doc) {
 
   li.appendChild(article)
   article.appendChild(header)
+  header.appendChild(a)
+  a.appendChild(h2)
   article.appendChild(section)
-  header.appendChild(h2)
   section.appendChild(p)
   section.appendChild(span)
 
