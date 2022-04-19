@@ -1,4 +1,4 @@
-- new field: site keywords
+- make site keywords also searchable as title and body are
 
 - new field: site URL
 - new field: site icon

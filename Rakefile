@@ -5,7 +5,7 @@ require 'open3'
 require 'webrick'
 
 class Template
-  Bio = Struct.new(:id, :name, :body)
+  Bio = Struct.new(:id, :name, :body, :keywords)
 
   def self.render(corpus_path, template_path)
     new(corpus_path, template_path).render
@@ -18,7 +18,7 @@ class Template
 
   def bios
     corpus.map do |attrs|
-      Bio.new(*attrs.values_at('id', 'name', 'body'))
+      Bio.new(*attrs.values_at('id', 'name', 'body', 'keywords'))
     end
   end
 

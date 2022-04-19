@@ -34,6 +34,9 @@ var buildSearchResult = function (doc) {
 
   p.dataset.field = 'body'
   p.textContent = doc.body
+  
+  span.dataset.field = 'keywords'
+  span.textContent = doc.keywords
 
   li.appendChild(article)
   article.appendChild(header)
