@@ -1,6 +1,7 @@
-- make site keywords also searchable as title and body are
-
 - new field: site URL
+
 - new field: site icon
+
+- make site keywords also searchable as title and body are
 
 - separate index into external repo
