@@ -1,4 +1,3 @@
-- logo
 - favicon
 
 - new field: site keywords
