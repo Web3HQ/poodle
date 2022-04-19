@@ -1,8 +1,6 @@
 - logo
 - favicon
 
-- remove numbers on lists (switch from ol to ul)
-
 - new field: site keywords
 
 - new field: site URL

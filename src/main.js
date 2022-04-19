@@ -68,17 +68,17 @@ var searchForm = document.querySelector('#search-form'),
 searchForm.addEventListener('reset', function (event) {
   clearQueryError()
 
-  var ol = document.querySelector('ol')
+  var ul = document.querySelector('ul')
 
-  while (ol.firstChild) {
-    ol.removeChild(ol.firstChild)
+  while (ul.firstChild) {
+    ul.removeChild(ul.firstChild)
   }
 
   Object.keys(documents).forEach(function (id) {
     var doc = documents[id],
         li = buildSearchResult(doc)
 
-    ol.appendChild(li)
+    ul.appendChild(li)
   })
 })
 
@@ -88,7 +88,7 @@ searchForm.addEventListener('submit', function (event) {
 
   var query = searchField.value,
       results = undefined,
-      ol = document.querySelector('ol')
+      ul = document.querySelector('ul')
 
   try {
     results = idx.search(query)
@@ -101,8 +101,8 @@ searchForm.addEventListener('submit', function (event) {
     }
   }
 
-  while (ol.firstChild) {
-    ol.removeChild(ol.firstChild)
+  while (ul.firstChild) {
+    ul.removeChild(ul.firstChild)
   }
 
   results.forEach(function (result) {
@@ -118,6 +118,6 @@ searchForm.addEventListener('submit', function (event) {
       })
     })
 
-    ol.appendChild(li)
+    ul.appendChild(li)
   })
 })
