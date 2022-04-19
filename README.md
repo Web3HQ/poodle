@@ -37,4 +37,4 @@ First, to init/setup, run `npm install` and `sudo apt install rake`.
 
 The build is automated using rake. To re-create the site run `rake` from the project directory, every time you make a modification and want to deploy it.
 
-<img width="250px" src="docs/logo_full.png" title="Poodle Search" alt="Poodle Search">
+<img src="docs/logo_full.png" title="Poodle Search" alt="Poodle Search">
