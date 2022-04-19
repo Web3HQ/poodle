@@ -1,7 +1,6 @@
-- favicon
-
 - new field: site keywords
 
 - new field: site URL
+- new field: site icon
 
 - separate index into external repo
