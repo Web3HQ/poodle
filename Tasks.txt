@@ -6,6 +6,11 @@
 
 - separate index into external repo
 
+- FMWK
+
+- links at the top
+- bottom links with link to Web3DAO
+
 ----------------------------------------
 
 - Web3 and Google tabs
